@@ -1,0 +1,276 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                     QUICK REFERENCE CARD                         ║
+║          Print or Keep This Open While Deploying                 ║
+╚══════════════════════════════════════════════════════════════════╝
+
+====================================================================
+📋 DEPLOYMENT STEPS (Copy This!)
+====================================================================
+
+Step 1: Login
+  → Go to: https://gator.hostgator.com/
+  → Enter: Username & Password
+  
+Step 2: Open File Manager
+  → cPanel → Files → File Manager
+  → Click: public_html folder
+  
+Step 3: Upload Core Files (5 files)
+  □ index.html
+  □ 404.html
+  □ .htaccess
+  □ robots.txt
+  □ favicon.ico
+  
+Step 4: Create Images Folder
+  → Click: "+ Folder" or "New Folder"
+  → Name: images (lowercase!)
+  → Click: Create
+  
+Step 5: Upload Images (10 files)
+  → Open: images folder
+  → Upload all 10 image files
+  
+Step 6: Test
+  → Visit: http://yourdomain.com
+  → Check: All images load
+  → Test: "Join Now" buttons
+  
+✅ DONE!
+
+====================================================================
+📸 IMAGE CHECKLIST
+====================================================================
+
+Required Images (Exact Names):
+  □ logo.png (96x96px)
+  □ coach.jpg (400x500px)
+  □ community-icon.png (64x64px)
+  □ workshop.jpg (700x400px)
+  □ testimonial-1.jpg (300x400px)
+  □ testimonial-2.jpg (300x400px)
+  □ testimonial-3.jpg (300x400px)
+  □ testimonial-4.jpg (300x400px)
+  □ testimonial-5.jpg (300x400px)
+  □ testimonial-6.jpg (300x400px)
+
+All images go in: public_html/images/
+
+====================================================================
+🔧 TROUBLESHOOTING QUICK FIXES
+====================================================================
+
+Problem: Images not showing
+Fix: 
+  1. Check filename matches exactly (case-sensitive!)
+  2. Verify images are in /images/ folder
+  3. Clear browser cache (Ctrl+F5)
+
+Problem: Page not loading
+Fix:
+  1. Verify index.html is in public_html (not subfolder)
+  2. Wait 5-10 minutes for upload to complete
+  3. Try incognito/private browsing
+
+Problem: Video not playing
+Fix:
+  1. Check internet connection
+  2. Verify video is public on YouTube
+  3. Test video link directly
+
+Problem: WhatsApp button doesn't work
+Fix:
+  1. Test link: https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0
+  2. Verify opens in new tab
+  3. Test on mobile device
+
+====================================================================
+⚡ IMPORTANT REMINDERS
+====================================================================
+
+✓ File names are CASE-SENSITIVE (logo.png ≠ Logo.png)
+✓ Upload to public_html (not home directory)
+✓ Create images/ folder first
+✓ Images go inside the images/ folder
+✓ Don't upload .txt documentation files
+✓ Set permissions: 644 for files, 755 for folders
+✓ Test on mobile before promoting
+✓ Clear cache if changes don't show
+
+====================================================================
+🔗 IMPORTANT LINKS
+====================================================================
+
+HostGator cPanel:
+  https://gator.hostgator.com/
+
+HostGator Support:
+  https://support.hostgator.com/
+  Live Chat: Available in cPanel (24/7)
+
+WhatsApp Group:
+  https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0
+
+YouTube Video:
+  https://youtu.be/CxljaL11ctc
+
+====================================================================
+📏 FILE SPECIFICATIONS
+====================================================================
+
+Image Sizes:
+  logo.png:           96 × 96 pixels
+  coach.jpg:          400 × 500 pixels
+  community-icon.png: 64 × 64 pixels
+  workshop.jpg:       700 × 400 pixels
+  testimonials:       300 × 400 pixels each
+
+File Size Limits:
+  Logo:        < 50KB
+  Coach:       < 150KB
+  Icon:        < 30KB
+  Workshop:    < 200KB
+  Testimonial: < 100KB each
+
+Total Page Size: < 2MB (with all images)
+
+====================================================================
+✅ PRE-LAUNCH CHECKLIST
+====================================================================
+
+Before Promoting:
+  □ All images uploaded and showing
+  □ All text is correct (no typos)
+  □ Video plays correctly
+  □ All 6 "Join Now" buttons work
+  □ WhatsApp link opens correctly
+  □ Tested on mobile device
+  □ Tested on desktop browser
+  □ Page loads in < 3 seconds
+  □ SSL certificate installed (https)
+  □ Got feedback from friend/colleague
+
+====================================================================
+📞 SUPPORT CONTACTS
+====================================================================
+
+HostGator Technical Issues:
+  → Live Chat (in cPanel)
+  → support.hostgator.com
+  → 24/7 Support Available
+
+Package Documentation:
+  → README.txt (complete guide)
+  → QUICK-START.txt (deployment steps)
+  → IMAGE-GUIDE.txt (image help)
+
+====================================================================
+⏱️ TIME ESTIMATES
+====================================================================
+
+With Images Ready:
+  Upload Files:    5 minutes
+  Upload Images:   3 minutes
+  Testing:         5 minutes
+  Total:           13 minutes
+
+Without Images:
+  Prepare Images:  30-60 minutes
+  Upload & Deploy: 13 minutes
+  Total:           45-75 minutes
+
+====================================================================
+💾 BACKUP REMINDER
+====================================================================
+
+After successful deployment:
+  □ Download backup from HostGator
+  □ Save to cloud storage (Google Drive, Dropbox)
+  □ Keep original files on your computer
+  □ Do this monthly
+
+====================================================================
+📊 WHAT SUCCESS LOOKS LIKE
+====================================================================
+
+✓ Visit: http://yourdomain.com
+✓ Page loads in 2-3 seconds
+✓ All images visible
+✓ Video plays when clicked
+✓ "Join Now" buttons → Open WhatsApp
+✓ Mobile: Looks good, buttons work
+✓ No broken images or links
+
+If all above = SUCCESS! 🎉
+
+====================================================================
+🎯 NEXT STEPS AFTER LAUNCH
+====================================================================
+
+Day 1:
+  □ Test everything again
+  □ Share with close friends for feedback
+  □ Fix any issues found
+  
+Week 1:
+  □ Share on social media
+  □ Email your list
+  □ Post in WhatsApp groups
+  □ Monitor sign-ups
+  
+Ongoing:
+  □ Update testimonials regularly
+  □ Track visitor numbers
+  □ Respond to inquiries quickly
+  □ Keep content fresh
+
+====================================================================
+📱 MOBILE TESTING COMMANDS
+====================================================================
+
+On Phone:
+  1. Open browser (Safari/Chrome)
+  2. Visit: http://yourdomain.com
+  3. Check: Images load
+  4. Tap: "Join Now" button
+  5. Verify: WhatsApp opens
+  6. Test: Video plays
+  7. Scroll: No horizontal scrolling
+  8. Zoom: Text is readable
+
+====================================================================
+🔒 SECURITY CHECKLIST
+====================================================================
+
+□ .htaccess uploaded (enables security headers)
+□ SSL certificate installed (https://)
+□ File permissions set correctly (644/755)
+□ No sensitive data in code
+□ Regular backups enabled
+□ Strong cPanel password
+
+====================================================================
+💡 OPTIMIZATION TIPS
+====================================================================
+
+For Faster Loading:
+  ✓ Compress all images before upload
+  ✓ Use JPG for photos, PNG for logos
+  ✓ Keep total page size under 2MB
+  ✓ Enable caching (via .htaccess - included)
+  ✓ Use browser cache (already configured)
+
+For Better SEO:
+  ✓ Submit to Google Search Console
+  ✓ Create sitemap (optional)
+  ✓ Share on social media
+  ✓ Get backlinks
+  ✓ Update content regularly
+
+====================================================================
+
+Print this page or keep it open while deploying!
+
+Good luck! 🚀
+
+====================================================================

@@ -1,0 +1,250 @@
+====================================================================
+    📊 FOLDER STRUCTURE - VISUAL GUIDE
+====================================================================
+
+This shows exactly what files go where in HostGator.
+
+====================================================================
+CURRENT STRUCTURE (Your Computer)
+====================================================================
+
+hostgator-deploy/
+│
+├── 📄 index.html                     ← Main landing page
+├── 📄 404.html                       ← Error page
+├── 📄 .htaccess                      ← Server config (hidden file)
+├── 📄 robots.txt                     ← SEO file
+├── 📄 favicon.ico                    ← Website icon
+│
+├── 📖 START-HERE.txt                 ← Start with this!
+├── 📖 QUICK-START.txt                ← 10-min deployment guide
+├── 📖 README.txt                     ← Complete documentation
+├── 📖 DEPLOYMENT-CHECKLIST.txt       ← Testing checklist
+├── 📖 MANIFEST.txt                   ← Package info
+├── 📖 FOLDER-STRUCTURE.txt           ← This file
+│
+└── 📁 images/                        ← Image folder
+    ├── 📖 IMAGE-GUIDE.txt            ← Image prep guide
+    ├── 📖 README-PLACEHOLDERS.txt    ← About placeholders
+    │
+    └── 📸 YOUR IMAGES (Add these 10 files):
+        ├── logo.png
+        ├── coach.jpg
+        ├── community-icon.png
+        ├── workshop.jpg
+        ├── testimonial-1.jpg
+        ├── testimonial-2.jpg
+        ├── testimonial-3.jpg
+        ├── testimonial-4.jpg
+        ├── testimonial-5.jpg
+        └── testimonial-6.jpg
+
+====================================================================
+TARGET STRUCTURE (HostGator public_html)
+====================================================================
+
+public_html/                          ← Your website root folder
+│
+├── 📄 index.html                     ← Upload this
+├── 📄 404.html                       ← Upload this
+├── 📄 .htaccess                      ← Upload this
+├── 📄 robots.txt                     ← Upload this
+├── 📄 favicon.ico                    ← Upload this
+│
+└── 📁 images/                        ← Create this folder
+    ├── 📸 logo.png                   ← Upload
+    ├── 📸 coach.jpg                  ← Upload
+    ├── 📸 community-icon.png         ← Upload
+    ├── 📸 workshop.jpg               ← Upload
+    ├── 📸 testimonial-1.jpg          ← Upload
+    ├── 📸 testimonial-2.jpg          ← Upload
+    ├── 📸 testimonial-3.jpg          ← Upload
+    ├── 📸 testimonial-4.jpg          ← Upload
+    ├── 📸 testimonial-5.jpg          ← Upload
+    └── 📸 testimonial-6.jpg          ← Upload
+
+📌 NOTE: Documentation files (.txt) stay on your computer!
+         Don't upload documentation to the server.
+
+====================================================================
+WHAT TO UPLOAD vs WHAT TO KEEP
+====================================================================
+
+✅ UPLOAD TO HOSTGATOR (public_html):
+  ✓ index.html
+  ✓ 404.html
+  ✓ .htaccess
+  ✓ robots.txt
+  ✓ favicon.ico
+  ✓ images/ folder with all 10 images
+
+❌ KEEP ON YOUR COMPUTER (Don't upload):
+  ✗ START-HERE.txt
+  ✗ QUICK-START.txt
+  ✗ README.txt
+  ✗ DEPLOYMENT-CHECKLIST.txt
+  ✗ MANIFEST.txt
+  ✗ FOLDER-STRUCTURE.txt
+  ✗ images/IMAGE-GUIDE.txt
+  ✗ images/README-PLACEHOLDERS.txt
+
+Why? Documentation is for your reference only!
+
+====================================================================
+FILE UPLOAD CHECKLIST
+====================================================================
+
+ROOT LEVEL (public_html):
+□ index.html
+□ 404.html
+□ .htaccess
+□ robots.txt
+□ favicon.ico
+
+IMAGES FOLDER (public_html/images):
+□ logo.png
+□ coach.jpg
+□ community-icon.png
+□ workshop.jpg
+□ testimonial-1.jpg
+□ testimonial-2.jpg
+□ testimonial-3.jpg
+□ testimonial-4.jpg
+□ testimonial-5.jpg
+□ testimonial-6.jpg
+
+Total to Upload: 5 core files + 1 folder + 10 images = 16 items
+
+====================================================================
+URL STRUCTURE (After Deployment)
+====================================================================
+
+Your Domain Structure:
+
+https://yourdomain.com/
+  ↓
+  ├── index.html            → https://yourdomain.com/
+  ├── 404.html              → https://yourdomain.com/404.html
+  ├── robots.txt            → https://yourdomain.com/robots.txt
+  ├── favicon.ico           → https://yourdomain.com/favicon.ico
+  │
+  └── images/
+      ├── logo.png          → https://yourdomain.com/images/logo.png
+      ├── coach.jpg         → https://yourdomain.com/images/coach.jpg
+      └── (etc...)
+
+====================================================================
+FILE SIZE REFERENCE
+====================================================================
+
+Approximate File Sizes:
+
+Core Files:
+  index.html            ~50KB
+  404.html              ~3KB
+  .htaccess             ~1KB
+  robots.txt            ~1KB
+  favicon.ico           ~1KB
+  TOTAL:                ~56KB
+
+Images (Optimized):
+  logo.png              ~30-50KB
+  coach.jpg             ~80-150KB
+  community-icon.png    ~20-30KB
+  workshop.jpg          ~100-200KB
+  testimonial-X.jpg     ~50-100KB each (× 6)
+  TOTAL:                ~600KB - 1.5MB
+
+Grand Total:          ~700KB - 1.6MB (very fast!)
+
+====================================================================
+PERMISSIONS GUIDE
+====================================================================
+
+Set These Permissions in HostGator:
+
+Files (HTML, images, etc.):
+  Permission: 644
+  Meaning: Owner can read/write, others can only read
+  
+Folders (images/):
+  Permission: 755
+  Meaning: Owner can read/write/execute, others can read/execute
+
+How to Set:
+1. Select file/folder in File Manager
+2. Click "Permissions" or right-click → "Change Permissions"
+3. Enter: 644 for files, 755 for folders
+4. Click "Change Permissions"
+
+====================================================================
+COMMON MISTAKES TO AVOID
+====================================================================
+
+❌ Wrong Folder:
+  DON'T put files in /home/username/
+  DO put files in /home/username/public_html/
+
+❌ Subfolder Issues:
+  DON'T: public_html/my-site/index.html
+  DO: public_html/index.html
+  
+  (Unless your domain points to a subfolder)
+
+❌ Case Sensitivity:
+  DON'T: Logo.png or LOGO.PNG
+  DO: logo.png (exactly as specified)
+
+❌ Missing Images Folder:
+  DON'T: Put images in public_html directly
+  DO: Create public_html/images/ folder first
+
+❌ Uploading Documentation:
+  DON'T: Upload .txt documentation files
+  DO: Keep them on your computer for reference
+
+====================================================================
+TESTING YOUR STRUCTURE
+====================================================================
+
+After Upload, Verify in File Manager:
+
+✅ Correct Structure:
+public_html/
+├── index.html              ← See this?
+├── 404.html                ← See this?
+├── .htaccess               ← See this? (might be hidden)
+├── robots.txt              ← See this?
+├── favicon.ico             ← See this?
+└── images/                 ← Folder exists?
+    └── (10 images inside)  ← All 10 present?
+
+✅ How to Check:
+1. Login to cPanel
+2. File Manager
+3. Navigate to public_html
+4. Verify all files present
+5. Open images folder
+6. Count 10 images
+
+====================================================================
+QUICK REFERENCE
+====================================================================
+
+Files to Upload: 5 core files + 10 images = 15 files total
+Folders to Create: 1 (images/)
+Total Items: 16
+
+Upload Location: public_html/
+Image Location: public_html/images/
+
+Expected Website: http://yourdomain.com
+Expected Load Time: < 3 seconds
+
+====================================================================
+
+Visual guide complete! Now you know exactly where everything goes.
+
+Next: Follow QUICK-START.txt for step-by-step upload instructions.
+
+====================================================================

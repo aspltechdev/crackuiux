@@ -1,0 +1,307 @@
+====================================================================
+    📸 IMAGE PREPARATION CHECKLIST
+====================================================================
+
+Before uploading to HostGator, prepare these 10 images:
+
+====================================================================
+REQUIRED IMAGES
+====================================================================
+
+1. ✅ logo.png
+   - Dimensions: 96x96 pixels (square)
+   - Format: PNG with transparent background
+   - File size: Under 50KB
+   - What to use: Your workshop/brand logo
+
+2. ✅ coach.jpg
+   - Dimensions: 400x500 pixels (portrait)
+   - Format: JPG
+   - File size: Under 150KB
+   - What to use: Professional photo of Auro Lakshmanan
+   - Tip: Good lighting, clean background
+
+3. ✅ community-icon.png
+   - Dimensions: 64x64 pixels (square)
+   - Format: PNG with transparent background
+   - File size: Under 30KB
+   - What to use: Community/people icon
+   - Where to get: flaticon.com, iconscout.com (free)
+
+4. ✅ workshop.jpg
+   - Dimensions: 700x400 pixels (landscape)
+   - Format: JPG
+   - File size: Under 200KB
+   - What to use: Workshop session, training room, or UX design visual
+   - Where to get: Unsplash.com, Pexels.com (free stock photos)
+
+5-10. ✅ testimonial-1.jpg through testimonial-6.jpg
+   - Dimensions: 300x400 pixels each (portrait)
+   - Format: JPG
+   - File size: Under 100KB each
+   - What to use: Screenshots of student testimonials, success stories
+   - Tip: Capture from WhatsApp, Instagram, LinkedIn
+
+====================================================================
+FREE IMAGE RESOURCES
+====================================================================
+
+STOCK PHOTOS (for workshop.jpg):
+• Unsplash.com - High-quality free photos
+• Pexels.com - Free stock photos
+• Pixabay.com - Free images and videos
+
+ICONS (for community-icon.png):
+• Flaticon.com - Free icons (attribution required for free)
+• Iconscout.com - Free and premium icons
+• Icons8.com - Free icons
+
+REMOVE BACKGROUND (for logo/photos):
+• Remove.bg - AI background remover (free)
+• PhotoScissors.com - Background removal
+• Canva.com - Has built-in background remover
+
+====================================================================
+IMAGE OPTIMIZATION TOOLS
+====================================================================
+
+Before uploading, compress your images:
+
+ONLINE TOOLS (FREE):
+1. TinyPNG.com
+   - Best for PNG files
+   - Maintains transparency
+   - Up to 80% compression
+
+2. Squoosh.app
+   - Google's image optimizer
+   - Works for JPG and PNG
+   - Real-time preview
+
+3. Compressor.io
+   - Simple interface
+   - Supports multiple formats
+   - Good compression ratio
+
+4. ImageOptim.com (Mac only)
+   - Desktop app
+   - Batch optimization
+   - Lossless compression
+
+HOW TO USE:
+1. Visit website (e.g., TinyPNG.com)
+2. Upload your image
+3. Download optimized version
+4. Replace original with optimized file
+
+====================================================================
+IMAGE EDITING (if needed)
+====================================================================
+
+FREE EDITORS:
+• Canva.com - Easy online editor
+• Photopea.com - Free Photoshop alternative
+• GIMP.org - Free desktop software (advanced)
+• Paint.NET - Windows only (easy to use)
+
+QUICK EDITS YOU MIGHT NEED:
+- Resize images to exact dimensions
+- Crop photos
+- Adjust brightness/contrast
+- Remove backgrounds
+- Add text overlays (for testimonials)
+
+====================================================================
+TESTIMONIAL SCREENSHOT TIPS
+====================================================================
+
+For testimonial-1.jpg through testimonial-6.jpg:
+
+WHERE TO GET TESTIMONIALS:
+□ WhatsApp messages from students
+□ Instagram DMs or posts
+□ LinkedIn recommendations
+□ Email feedback
+□ Video testimonial screenshots
+
+HOW TO CAPTURE:
+1. Take screenshot (Print Screen, Cmd+Shift+4, phone screenshot)
+2. Crop to show just the testimonial text and sender
+3. Add border or background for professional look
+4. Resize to 300x400 pixels
+5. Optimize for web (compress)
+
+PRIVACY TIP:
+- Blur sensitive information (phone numbers, emails)
+- Get permission before posting
+- Use first name only if needed
+
+====================================================================
+NAMING CONVENTION (CRITICAL!)
+====================================================================
+
+File names MUST match exactly (case-sensitive):
+
+✅ CORRECT:
+- logo.png
+- coach.jpg
+- community-icon.png
+- workshop.jpg
+- testimonial-1.jpg (not testimonial-01.jpg)
+- testimonial-2.jpg
+- testimonial-3.jpg
+- testimonial-4.jpg
+- testimonial-5.jpg
+- testimonial-6.jpg
+
+❌ WRONG:
+- Logo.png (capital L)
+- LOGO.PNG (all caps)
+- coach.png (should be .jpg)
+- testimonial_1.jpg (underscore instead of dash)
+- testimonial-01.jpg (has zero)
+- Testimonial-1.jpg (capital T)
+
+====================================================================
+FILE SIZE TARGETS
+====================================================================
+
+Keep these sizes for fast loading:
+
+Image               | Target Size | Max Size
+--------------------|-------------|----------
+logo.png            | 30-50KB     | 100KB
+coach.jpg           | 80-150KB    | 200KB
+community-icon.png  | 10-30KB     | 50KB
+workshop.jpg        | 100-200KB   | 300KB
+testimonial-X.jpg   | 50-100KB    | 150KB
+
+TOTAL PAGE SIZE GOAL: Under 2MB
+(Including all images and HTML)
+
+====================================================================
+STEP-BY-STEP IMAGE PREP
+====================================================================
+
+FOR EACH IMAGE:
+
+□ STEP 1: Get or create the image
+□ STEP 2: Resize to correct dimensions
+□ STEP 3: Save with correct filename
+□ STEP 4: Optimize/compress
+□ STEP 5: Check file size
+□ STEP 6: Preview in browser
+□ STEP 7: Upload to HostGator
+
+====================================================================
+QUALITY CHECK
+====================================================================
+
+Before uploading, verify:
+
+□ Images are clear (not blurry)
+□ Correct dimensions
+□ File size is optimized
+□ File names match exactly
+□ Proper format (JPG vs PNG)
+□ No watermarks (unless intentional)
+□ Colors look good
+□ Text is readable (in testimonials)
+
+====================================================================
+SAMPLE IMAGE SPECIFICATIONS
+====================================================================
+
+1. LOGO (logo.png)
+   Resolution: 96x96 pixels
+   DPI: 72
+   Color mode: RGB
+   Transparency: Yes
+   File type: PNG-24 or PNG-8
+
+2. COACH PHOTO (coach.jpg)
+   Resolution: 400x500 pixels
+   DPI: 72
+   Color mode: RGB
+   Transparency: No
+   File type: JPEG
+   Quality: 80-90%
+
+3. TESTIMONIALS (testimonial-X.jpg)
+   Resolution: 300x400 pixels
+   DPI: 72
+   Color mode: RGB
+   File type: JPEG
+   Quality: 75-85%
+
+====================================================================
+BATCH PROCESSING TIP
+====================================================================
+
+If you need to resize multiple images:
+
+WINDOWS:
+- Use IrfanView (free) with batch conversion
+- Or Microsoft PowerToys Image Resizer
+
+MAC:
+- Use Preview's "Adjust Size" feature
+- Or Automator for batch processing
+
+ONLINE:
+- Bulk Resize Photos (bulkresizephotos.com)
+- ILoveIMG.com - Batch image tools
+
+====================================================================
+MOBILE OPTIMIZATION
+====================================================================
+
+Images look different on mobile!
+
+TEST CHECKLIST:
+□ Logo is visible at small size
+□ Text in testimonials is readable
+□ Photos are not stretched or distorted
+□ File sizes don't slow mobile loading
+
+TIP: Test on actual phone before launching!
+
+====================================================================
+BACKUP ORIGINALS
+====================================================================
+
+BEFORE optimizing:
+1. Create a folder called "originals"
+2. Save original, uncompressed images there
+3. Work on copies for optimization
+4. Keep originals for future use
+
+WHY? In case you need higher quality later!
+
+====================================================================
+FINAL CHECKLIST
+====================================================================
+
+Ready to upload? Check all these:
+
+□ All 10 images prepared
+□ Correct dimensions
+□ Correct file names (case-sensitive)
+□ Optimized file sizes
+□ Images look good when previewed
+□ No missing images
+□ Have backups of originals
+□ Images tested on mobile
+
+====================================================================
+
+Once all images are ready:
+1. Upload to HostGator (see QUICK-START.txt)
+2. Verify they display correctly
+3. Test on mobile device
+
+====================================================================
+
+Happy uploading! 📸
+
+====================================================================

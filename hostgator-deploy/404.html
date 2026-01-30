@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-75GL3MSGHM"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);} 
+            gtag('js', new Date());
+
+            gtag('config', 'G-75GL3MSGHM');
+        </script>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | UI/UX Workshop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #000 0%, #581c87 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-container {
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 8rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #9333ea, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #f472b6;
+        }
+        p {
+            font-size: 1.125rem;
+            color: #d1d5db;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(to right, #eab308, #f97316);
+            color: #000;
+            padding: 1rem 2rem;
+            border-radius: 9999px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.125rem;
+            transition: transform 0.3s ease;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Oops! Page Not Found</h2>
+        <p>The page you're looking for doesn't exist or has been moved.</p>
+        <a href="/" class="btn">Go Back Home</a>
+    </div>
+</body>
+</html>

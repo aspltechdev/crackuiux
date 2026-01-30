@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-75GL3MSGHM"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);} 
+            gtag('js', new Date());
+
+            gtag('config', 'G-75GL3MSGHM');
+        </script>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Interview Cracking Workshop - Auro Lakshmanan</title>
+    <meta name="description" content="Transform your UX career in 30 days. Join 12,000+ successful students. Learn portfolio building, interview skills, and get job referrals.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Baloo+Thambi+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .tamil-font {
+            font-family: 'Baloo Thambi 2', cursive;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .logo {
+            width: 96px;
+            height: 96px;
+            margin: 0 auto 2rem;
+        }
+
+        .hero-title-box {
+            background: linear-gradient(to right, #9333ea, #ec4899);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .hero-tamil {
+            border: 2px solid #f472b6;
+            border-radius: 1rem;
+            padding: 2rem;
+            background: linear-gradient(to bottom right, rgba(88, 28, 135, 0.3), rgba(157, 23, 77, 0.3));
+            margin-bottom: 2rem;
+        }
+
+        .tamil-headline {
+            font-size: 2rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .subheadline {
+            font-size: 1.125rem;
+            margin-top: 2rem;
+            color: #d1d5db;
+        }
+
+        .subheadline span {
+            display: block;
+            margin-top: 0.5rem;
+        }
+
+        .highlight-pink {
+            color: #f472b6;
+        }
+
+        .urgency-badge {
+            display: inline-block;
+            background: linear-gradient(to right, #eab308, #f97316);
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            margin-top: 1.5rem;
+            font-weight: 700;
+            font-size: 0.875rem;
+            color: #000;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(to right, #eab308, #f97316);
+            padding: 1rem 2rem;
+            border-radius: 9999px;
+            margin-top: 2rem;
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #000;
+            text-decoration: none;
+            box-shadow: 0 25px 50px -12px rgba(234, 179, 8, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 25px 50px -12px rgba(234, 179, 8, 0.7);
+        }
+
+        /* Coach Section */
+        .coach-section {
+            padding: 4rem 1rem;
+            background: linear-gradient(to bottom, #581c87, #000);
+        }
+
+        .coach-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .coach-image-wrapper {
+            text-align: center;
+        }
+
+        .coach-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            box-shadow: 0 25px 50px -12px rgba(147, 51, 234, 0.5);
+        }
+
+        .coach-text h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #f472b6;
+        }
+
+        .coach-text h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #d1d5db;
+        }
+
+        .coach-text p {
+            font-size: 1.125rem;
+            margin-bottom: 1rem;
+            color: #d1d5db;
+        }
+
+        .company-badge {
+            display: inline-block;
+            background: linear-gradient(to right, #9333ea, #ec4899);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            margin: 0.25rem;
+            font-size: 0.875rem;
+        }
+
+        .stats-section {
+            background: rgba(147, 51, 234, 0.1);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .stats-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .stats-icon {
+            width: 64px;
+            height: 64px;
+        }
+
+        .stats-title {
+            font-size: 1.5rem;
+            color: #facc15;
+            margin-bottom: 0.5rem;
+        }
+
+        .stats-description {
+            font-size: 1rem;
+            color: #d1d5db;
+        }
+
+        /* Workshop Details */
+        .workshop-section {
+            padding: 4rem 1rem;
+            background: #000;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            background: linear-gradient(to right, #9333ea, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-description {
+            font-size: 1.25rem;
+            text-align: center;
+            color: #d1d5db;
+            margin-bottom: 3rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .workshop-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            margin: 0 auto 3rem;
+            display: block;
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .module-card {
+            background: linear-gradient(to bottom right, rgba(147, 51, 234, 0.2), rgba(236, 72, 153, 0.2));
+            border: 1px solid rgba(147, 51, 234, 0.3);
+            border-radius: 1rem;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -12px rgba(147, 51, 234, 0.5);
+        }
+
+        .module-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .module-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #facc15;
+        }
+
+        .module-description {
+            font-size: 1rem;
+            color: #d1d5db;
+            line-height: 1.8;
+        }
+
+        .module-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .module-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .module-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #22c55e;
+            font-weight: 700;
+        }
+
+        /* Transformation Section */
+        .transformation-section {
+            padding: 4rem 1rem;
+            background: linear-gradient(to bottom, #000, #581c87);
+        }
+
+        .transformation-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .transformation-card {
+            background: rgba(0, 0, 0, 0.5);
+            border: 2px solid #f472b6;
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .transformation-card h3 {
+            font-size: 1.75rem;
+            color: #facc15;
+            margin-bottom: 1rem;
+        }
+
+        .transformation-card p {
+            font-size: 1.125rem;
+            color: #d1d5db;
+        }
+
+        .vs-arrow {
+            font-size: 3rem;
+            text-align: center;
+            color: #f97316;
+            margin: 1rem 0;
+        }
+
+        /* Who Can Join Section */
+        .who-can-join-section {
+            padding: 4rem 1rem;
+            background: #581c87;
+        }
+
+        .audience-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .audience-card {
+            background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(88, 28, 135, 0.3));
+            border-left: 4px solid #facc15;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+        }
+
+        .audience-card h3 {
+            font-size: 1.25rem;
+            color: #f472b6;
+            margin-bottom: 0.75rem;
+        }
+
+        .audience-card p {
+            font-size: 1rem;
+            color: #d1d5db;
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            padding: 4rem 1rem;
+            background: #000;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial-card {
+            overflow: hidden;
+            border-radius: 1rem;
+            box-shadow: 0 10px 30px rgba(147, 51, 234, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: scale(1.05);
+        }
+
+        .testimonial-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Final CTA Section */
+        .final-cta-section {
+            padding: 4rem 1rem;
+            background: linear-gradient(to bottom, #581c87, #9333ea);
+            text-align: center;
+        }
+
+        .final-cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .final-cta-section p {
+            font-size: 1.25rem;
+            color: #d1d5db;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 2rem 1rem;
+            background: #000;
+            text-align: center;
+            border-top: 1px solid rgba(147, 51, 234, 0.3);
+        }
+
+        .footer p {
+            font-size: 0.875rem;
+            color: #9ca3af;
+        }
+
+        /* Responsive */
+        @media (min-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .tamil-headline {
+                font-size: 3rem;
+            }
+
+            .cta-button {
+                font-size: 1.5rem;
+                padding: 1.5rem 3rem;
+            }
+
+            .coach-content {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .modules-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .transformation-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .audience-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .modules-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .testimonials-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <!-- Logo - Replace with actual image URL -->
+            <img src="images/logo.png" alt="Logo" class="logo">
+            
+            <div class="hero-title-box">
+                <h1 class="hero-title">UI/UX Interview Cracking Workshop</h1>
+            </div>
+
+            <div class="hero-tamil tamil-font">
+                <h2 class="tamil-headline">நீங்க எங்க படித்தாலும் சரி!!</h2>
+                <p class="tamil-headline">UX Interview Crack Panalam?</p>
+            </div>
+
+            <div class="subheadline">
+                <span>Stop letting interviews slip through your fingers.</span>
+                <span class="highlight-pink">Your dream UX career is just one workshop away.</span>
+            </div>
+
+            <div style="display: flex; justify-content: center; margin-top: 1.5rem;">
+                <div class="urgency-badge">
+                    🔥 Limited Seats Available - Join 12,000+ Success Stories
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: center;">
+                <a 
+                    href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="cta-button"
+                >
+                    Join Now 🚀
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coach Introduction -->
+    <section class="coach-section">
+        <div class="container">
+            <h2 class="section-title">Meet Your Coach</h2>
+            
+            <div class="coach-content">
+                <!-- Replace with actual image URL -->
+                <div class="coach-image-wrapper">
+                    <img src="images/coach.jpg" alt="Auro Lakshmanan" class="coach-image">
+                </div>
+
+                <div class="coach-text">
+                    <h2>Auro Lakshmanan</h2>
+                    <h3>Your UX Career Architect</h3>
+                    
+                    <p>
+                        <strong>Not just a teacher. A career transformer.</strong>
+                    </p>
+                    
+                    <p>
+                        Auro has walked the path you're about to take. From facing countless rejections to landing dream roles at:
+                    </p>
+                    
+                    <div style="margin: 1.5rem 0;">
+                        <span class="company-badge">EX. UX Designer CSK</span>
+                        <span class="company-badge">Accenture</span>
+                        <span class="company-badge">VS&Co</span>
+                    </div>
+                    
+                    <p>
+                        He's cracked the interview code. Now, he's sharing the exact blueprint with you.
+                    </p>
+
+                    <div class="stats-section">
+                        <div class="stats-content">
+                            <!-- Replace with actual icon image -->
+                            <img src="images/community-icon.png" alt="Community" class="stats-icon">
+                            <div>
+                                <h3 class="stats-title">12000+ Learners from Tamil UX Community</h3>
+                                <p class="stats-description">
+                                    A thriving community of UX professionals who've transformed their careers through Auro's guidance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <a 
+                            href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="cta-button"
+                        >
+                            Join Now 🚀
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshop Details -->
+    <section class="workshop-section">
+        <div class="container">
+            <h2 class="section-title">What You'll Master in This Workshop</h2>
+            <p class="section-description">
+                This isn't theory. This is the exact system that's helped thousands crack interviews at top companies.
+            </p>
+
+            <!-- Replace with actual workshop image -->
+            <img src="images/workshop.jpg" alt="Workshop" class="workshop-image">
+
+            <h3 class="section-title" style="font-size: 1.75rem; margin-bottom: 2rem;">
+                The Complete Interview Mastery System
+            </h3>
+
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-icon">🎨</div>
+                    <h3 class="module-title">Module 1: Portfolio That Sells</h3>
+                    <p class="module-description">
+                        Your portfolio is your first impression. Learn to create one that makes recruiters say "We need to interview this person."
+                    </p>
+                    <ul class="module-list">
+                        <li>Case study framework that stands out</li>
+                        <li>How to present your design thinking</li>
+                        <li>Common portfolio mistakes to avoid</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-icon">💬</div>
+                    <h3 class="module-title">Module 2: Interview Confidence</h3>
+                    <p class="module-description">
+                        Walk into any interview room with unshakeable confidence. Know exactly what to say and how to say it.
+                    </p>
+                    <ul class="module-list">
+                        <li>Answering behavioral questions like a pro</li>
+                        <li>Handling design critique gracefully</li>
+                        <li>Body language & communication tips</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-icon">🧩</div>
+                    <h3 class="module-title">Module 3: Problem-Solving Mastery</h3>
+                    <p class="module-description">
+                        Crack any design challenge thrown at you. Think on your feet and impress interviewers with structured thinking.
+                    </p>
+                    <ul class="module-list">
+                        <li>Design challenge frameworks</li>
+                        <li>How to think out loud effectively</li>
+                        <li>Real interview scenarios & solutions</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-icon">📱</div>
+                    <h3 class="module-title">Module 4: Resume That Gets Shortlisted</h3>
+                    <p class="module-description">
+                        Get past the ATS systems and into human hands. Your resume is your ticket—make it count.
+                    </p>
+                    <ul class="module-list">
+                        <li>ATS-friendly resume structure</li>
+                        <li>Keywords that get you noticed</li>
+                        <li>Achievement-focused bullet points</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-icon">🤝</div>
+                    <h3 class="module-title">Module 5: Network & Referrals</h3>
+                    <p class="module-description">
+                        80% of jobs are filled through referrals. Learn how to build connections that open doors.
+                    </p>
+                    <ul class="module-list">
+                        <li>LinkedIn optimization strategies</li>
+                        <li>How to ask for referrals (the right way)</li>
+                        <li>Building genuine professional relationships</li>
+                    </ul>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-icon">🎯</div>
+                    <h3 class="module-title">Module 6: Salary Negotiation</h3>
+                    <p class="module-description">
+                        Don't leave money on the table. Negotiate like a pro and get the compensation you deserve.
+                    </p>
+                    <ul class="module-list">
+                        <li>When and how to discuss salary</li>
+                        <li>Negotiation scripts that work</li>
+                        <li>Understanding your market value</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a 
+                    href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="cta-button"
+                >
+                    Join Now 🚀
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" style="padding: 3rem 1rem; background: linear-gradient(to bottom, rgb(59, 7, 100), black);">
+        <div class="container" style="max-width: 56rem; margin: 0 auto;">
+            <!-- Section Header -->
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 2.5rem; color: white; margin-bottom: 1rem;">
+                    Watch This Before You Decide
+                </h2>
+                <p style="font-family: 'Poppins', sans-serif; font-size: 1.25rem; color: rgb(209, 213, 219);">
+                    See what makes this workshop different and how it can transform your career
+                </p>
+            </div>
+
+            <!-- Video Container -->
+            <div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-bottom: 2rem;">
+                <iframe
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 1rem; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);"
+                    src="https://www.youtube.com/embed/CxljaL11ctc"
+                    title="Workshop Introduction Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+            </div>
+
+            <!-- Call to Action after video -->
+            <div style="text-align: center; margin-top: 2rem;">
+                <p style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 1.5rem; color: rgb(250, 204, 21); margin-bottom: 1rem;">
+                    Ready to Transform Your Career?
+                </p>
+                <a 
+                    href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="cta-button"
+                >
+                    Join Now 🚀
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Transformation -->
+    <section class="transformation-section">
+        <div class="container">
+            <h2 class="section-title">What Will Change In Your Career?</h2>
+            <p class="section-description">
+                Imagine waking up knowing you have the skills, confidence, and connections to land any UX job you want.
+                <span class="highlight-pink" style="display: block; margin-top: 0.75rem; font-weight: 600;">That's not a dream. That's your reality in 30 days.</span>
+            </p>
+
+            <div class="transformation-grid">
+                <div>
+                    <div class="transformation-card" style="border-color: #ef4444;">
+                        <h3>❌ Before This Workshop</h3>
+                        <p>Sending 100+ applications with zero responses</p>
+                        <p>Getting rejected in the first round</p>
+                        <p>Feeling underprepared and anxious</p>
+                        <p>Not knowing what went wrong</p>
+                        <p>Comparing yourself to others who "got lucky"</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="transformation-card" style="border-color: #22c55e;">
+                        <h3>✅ After This Workshop</h3>
+                        <p>Getting interview calls from dream companies</p>
+                        <p>Confidently cracking every round</p>
+                        <p>Walking in prepared, walking out impressed</p>
+                        <p>Knowing exactly what companies want</p>
+                        <p>Being the candidate everyone wants to hire</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vs-arrow">↓</div>
+
+            <div style="text-align: center; background: rgba(234, 179, 8, 0.1); border: 2px solid #facc15; border-radius: 1rem; padding: 2rem; margin-top: 2rem;">
+                <h3 style="font-size: 2rem; color: #facc15; margin-bottom: 1rem;">
+                    The Difference? This Workshop.
+                </h3>
+                <p style="font-size: 1.25rem; color: #d1d5db;">
+                    It's not magic. It's a proven system. And it works for everyone who commits to it.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Can Join -->
+    <section class="who-can-join-section">
+        <div class="container">
+            <h2 class="section-title">Is This Workshop For You?</h2>
+            <p class="section-description">
+                If you see yourself in any of these situations, this workshop is your turning point.
+            </p>
+
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <h3>🎓 Fresh Graduates</h3>
+                    <p>You have the degree, but no idea how to land your first UX job. We'll get you interview-ready.</p>
+                </div>
+
+                <div class="audience-card">
+                    <h3>🔄 Career Switchers</h3>
+                    <p>Transitioning to UX and unsure how to present your background? We'll turn your story into your strength.</p>
+                </div>
+
+                <div class="audience-card">
+                    <h3>📈 Mid-Level Designers</h3>
+                    <p>Stuck in the same role? Learn how to position yourself for senior opportunities and better offers.</p>
+                </div>
+
+                <div class="audience-card">
+                    <h3>🚀 Self-Taught Designers</h3>
+                    <p>No formal degree? No problem. We'll show you how to prove your skills and stand out.</p>
+                </div>
+
+                <div class="audience-card">
+                    <h3>💼 Freelancers Going Full-Time</h3>
+                    <p>Ready to join a company but don't know how to interview? We've got you covered.</p>
+                </div>
+
+                <div class="audience-card">
+                    <h3>🎯 Job Seekers Facing Rejections</h3>
+                    <p>Tired of getting rejected? Let's fix what's going wrong and get you hired.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 1rem; border: 2px solid #f472b6;">
+                <h3 style="font-size: 1.75rem; color: #facc15; margin-bottom: 1rem;">
+                    தமிழ் UX Community-ல இருந்து 12000+ பேர் வெற்றி பெற்றுள்ளனர்
+                </h3>
+                <p style="font-size: 1.125rem; color: #d1d5db; margin-bottom: 1.5rem;">
+                    நீங்களும் இணையுங்கள்!
+                </p>
+                <a 
+                    href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="cta-button"
+                >
+                    Join Now 🚀
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Real People. Real Results. Real Success.</h2>
+            <p class="section-description">
+                Don't just take our word for it. Here's what students from the Tamil UX Community are saying.
+            </p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="images/testimonial-1.jpg" alt="Testimonial 1">
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimonial-2.jpg" alt="Testimonial 2">
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimonial-3.jpg" alt="Testimonial 3">
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimonial-4.jpg" alt="Testimonial 4">
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimonial-5.jpg" alt="Testimonial 5">
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/testimonial-6.jpg" alt="Testimonial 6">
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem; background: linear-gradient(to right, rgba(147, 51, 234, 0.2), rgba(236, 72, 153, 0.2)); padding: 2rem; border-radius: 1rem;">
+                <p style="font-size: 1.5rem; color: #facc15; margin-bottom: 1rem;">
+                    இதே போல் நீங்களும் உங்கள் வெற்றி கதையை பகிர தயாரா?
+                </p>
+                <p style="font-size: 1.125rem; color: #d1d5db;">
+                    (Are you ready to share your success story like them?)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta-section">
+        <div class="container">
+            <h2>Your Career Transformation Starts Today</h2>
+            <p>
+                You've seen the testimonials. You know what's possible. The only question is: <strong>Are you ready to commit to your success?</strong>
+            </p>
+            <p style="font-size: 1.5rem; color: #facc15; margin-top: 1.5rem;">
+                Join 12,000+ UX professionals who made the decision to invest in themselves.
+            </p>
+            
+            <a 
+                href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="cta-button"
+                style="font-size: 1.75rem; padding: 1.5rem 3rem;"
+            >
+                Join Now 🚀
+            </a>
+
+            <p style="margin-top: 2rem; font-size: 0.875rem; color: #d1d5db;">
+                🔥 Limited seats available. Join before it's too late.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Auro Lakshmanan - UI/UX Interview Cracking Workshop. All rights reserved.</p>
+            <p style="margin-top: 0.5rem;">Built with ❤️ for the Tamil UX Community</p>
+        </div>
+    </footer>
+
+</body>
+</html>
