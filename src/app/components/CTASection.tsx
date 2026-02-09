@@ -8,7 +8,7 @@ export function CTASection() {
             Fix Your Career with Auro Lakshmanan Today
           </h2>
           <p className="font-['Poppins:Regular',sans-serif] text-lg md:text-xl text-gray-300 mb-8">
-            Every day you wait is another day staying stuck in the same place. 
+            Every day you wait is another day staying stuck in the same place.
             <span className="block mt-3 text-pink-400 font-semibold">The choice is yours. Make it count.</span>
           </p>
         </div>
@@ -24,9 +24,9 @@ export function CTASection() {
 
           {/* CTA Button */}
           <div className="text-center">
-            <a 
-              href="https://chat.whatsapp.com/GZ7WWgIZVug0qQAD1LOrw0" 
-              target="_blank" 
+            <a
+              href="https://tagmango.app/8eab1d9b8c"
+              target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105"
             >
@@ -68,7 +68,7 @@ export function CTASection() {
             "What if I told you that a year from now..."
           </p>
           <p className="font-['Poppins:Regular',sans-serif] text-lg text-gray-300 text-center mb-4">
-            You could be working at your dream company, earning more than you ever thought possible, 
+            You could be working at your dream company, earning more than you ever thought possible,
             and actually loving what you do every single day.
           </p>
           <p className="font-['Poppins:Medium',sans-serif] text-xl md:text-2xl text-pink-400 text-center mb-6">
