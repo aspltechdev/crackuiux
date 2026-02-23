@@ -1,4 +1,7 @@
+import { JoinNowButton } from "./JoinNowButton";
+
 export function VideoSection() {
+
   return (
     <div className="py-12 md:py-16 px-4 md:px-8 lg:px-16 bg-gradient-to-b from-purple-950 to-black">
       <div className="max-w-4xl mx-auto">
@@ -29,16 +32,10 @@ export function VideoSection() {
           <p className="font-['Poppins:Medium',sans-serif] text-xl md:text-2xl text-yellow-400 mb-4">
             Ready to Transform Your Career?
           </p>
-          <a
-            href="https://tagmango.app/8eab1d9b8c"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 rounded-full shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105"
-          >
-            <span className="font-['Poppins:Bold',sans-serif] text-xl md:text-2xl text-black">
-              Join Now 🚀
-            </span>
-          </a>
+          <JoinNowButton
+            amount={1}
+            className="inline-block cursor-pointer bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 rounded-full shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105 text-xl md:text-2xl text-black"
+          />
         </div>
       </div>
     </div>

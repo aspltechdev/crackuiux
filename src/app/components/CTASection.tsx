@@ -1,4 +1,7 @@
+import { JoinNowButton } from "./JoinNowButton";
+
 export function CTASection() {
+
   return (
     <div className="py-16 md:py-24 px-4 md:px-8 lg:px-16 bg-gradient-to-b from-black via-purple-950 to-black">
       <div className="max-w-4xl mx-auto">
@@ -24,16 +27,10 @@ export function CTASection() {
 
           {/* CTA Button */}
           <div className="text-center">
-            <a
-              href="https://tagmango.app/8eab1d9b8c"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105"
-            >
-              <span className="font-['Poppins:Bold',sans-serif] text-2xl md:text-3xl text-black">
-                Join Now 🚀
-              </span>
-            </a>
+            <JoinNowButton
+              amount={1}
+              className="group cursor-pointer relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 px-8 md:px-12 py-4 md:py-6 shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300 transform hover:scale-105 text-white text-2xl md:text-3xl text-black"
+            />
             <p className="font-['Poppins:Regular',sans-serif] text-sm md:text-base text-white/70 mt-4">
               Secure your spot in the next batch
             </p>
